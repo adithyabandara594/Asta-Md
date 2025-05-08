@@ -1,6 +1,6 @@
 const fs = require('fs-extra')
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || '2348039607375' ;
+global.owner = process.env.OWNER_NUMBER || '94776966301' ;
 global.mongodb = process.env.MONGODB_URI || "" ; 
 global.port=5000  ;
 global.audio = '' ; 
@@ -21,8 +21,8 @@ global.waUrl = process.env.WAURL ||"",
 global.website = '' ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || '' ;
 module.exports = {
-  sessionName: process.env.SESSION_ID || '',
-  botname: process.env.BOT_NAME || 'Asta-Md',
+  sessionName: process.env.SESSION_ID || '𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=umJ2SRbT#2n2yPxjPyfba0mT5tt1HekL1H1ZF9zJ1BJGBjQ51GgE',
+  botname: process.env.BOT_NAME || 'musprodev',
   ownername:  process.env.OWNER_NAME || `Astro`,
   author:  process.env.PACK_AUTHER || 'Astro', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
